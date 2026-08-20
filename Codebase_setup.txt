@@ -1,0 +1,44 @@
+MAC Setup
+Open Terminal in IDE editor and ensure you're in the codebase directory
+
+Step 1:
+brew install --cask miniconda
+
+Step 2:
+conda init zsh
+
+source ~/.zshrc
+
+
+Step 3:
+conda create -n snn-env python=3.10 -y
+
+conda activate snn-env
+
+If using Silicon Chip:
+pip install tensorflow-macos==2.13.1
+pip install tensorflow-metal
+
+Step 4:
+pip install ipykernel jupyterlab ipywidgets
+
+Test codebase
+
+For Windows 
+
+Step 1:
+Download and run the Miniconda installer from the official Anaconda site, 
+then open “Anaconda Prompt” or a PowerShell terminal with conda enabled.
+
+Step 2:
+conda create -n snn-env python=3.10 -y
+
+conda activate snn-env
+
+If issues are present use:
+conda init zsh
+
+source ~/.zshrc
+
+Step 3:
+pip install ipykernel jupyterlab ipywidgets
