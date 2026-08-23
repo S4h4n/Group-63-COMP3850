@@ -22,6 +22,8 @@ pip install tensorflow-metal
 Step 4:
 pip install ipykernel jupyterlab ipywidgets
 
+pip install -r requirements.txt
+
 Test codebase
 
 For Windows 
@@ -42,3 +44,7 @@ source ~/.zshrc
 
 Step 3:
 pip install ipykernel jupyterlab ipywidgets
+
+pip install -r requirements.txt
+
+test code base
