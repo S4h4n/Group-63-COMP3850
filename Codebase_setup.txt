@@ -26,6 +26,15 @@ pip install -r requirements.txt
 
 Test codebase
 
+Step 4:
+Run all the modules, simply hit run on all the sections
+
+Once you reach Step 5: Evaluation and Visualization. 
+- You may need to do the following if has an error
+    conda activate snn-env
+    pip install matplotlib seaborn
+Should work fine now
+
 For Windows 
 
 Step 1:
@@ -48,3 +57,12 @@ pip install ipykernel jupyterlab ipywidgets
 pip install -r requirements.txt
 
 test code base
+
+Step 4:
+Run all the modules, simply hit run on all the sections
+
+Once you reach Step 5: Evaluation and Visualization. 
+- You may need to do the following if has an error
+    conda activate snn-env
+    pip install matplotlib seaborn
+Should work fine now
