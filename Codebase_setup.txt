@@ -1,68 +1,10 @@
-MAC Setup
-Open Terminal in IDE editor and ensure you're in the codebase directory
+SETUP GUIDE
 
-Step 1:
-brew install --cask miniconda
+The maintained setup instructions are in README.md, section:
+Installation: Windows and Mac.
 
-Step 2:
-conda init zsh
-
-source ~/.zshrc
-
-
-Step 3:
-conda create -n snn-env python=3.10 -y
-
-conda activate snn-env
-
-If using Silicon Chip:
-pip install tensorflow-macos==2.13.1
-pip install tensorflow-metal
-
-Step 4:
-pip install ipykernel jupyterlab ipywidgets
-
-pip install -r requirements.txt
-
-Test codebase
-
-Step 4:
-Run all the modules, simply hit run on all the sections
-
-Once you reach Step 5: Evaluation and Visualization. 
-- You may need to do the following if has an error
-    conda activate snn-env
-    pip install matplotlib seaborn
-Should work fine now
-
-For Windows 
-
-Step 1:
-Download and run the Miniconda installer from the official Anaconda site, 
-then open “Anaconda Prompt” or a PowerShell terminal with conda enabled.
-
-Step 2:
-conda create -n snn-env python=3.10 -y
-
-conda activate snn-env
-
-If issues are present use:
-conda init zsh
-
-source ~/.zshrc
-
-Step 3:
-pip install ipykernel jupyterlab ipywidgets
-
-pip install -r requirements.txt
-
-test code base
-
-Step 4:
-Run all the modules, simply hit run on all the sections
-
-Once you reach Step 5: Evaluation and Visualization. 
-- You may need to do the following if has an error
-    conda activate snn-env
-    pip install matplotlib seaborn
-Should work fine now
+Use Python 3.10 in a fresh Conda environment and install requirements.txt.
+The requirements file automatically selects the platform TensorFlow package.
+Use VS Code with the Python and Jupyter extensions.
+Do not run the former zsh commands in Windows Anaconda Prompt.
+Do not install an unpinned TensorFlow Metal plugin as part of the base setup.
