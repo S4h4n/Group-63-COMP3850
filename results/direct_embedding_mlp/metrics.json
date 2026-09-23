@@ -1,0 +1,8 @@
+{
+  "model": "MLP on absolute differences of original BERT embeddings",
+  "task": "record linkage",
+  "threshold": 0.33999999999999986,
+  "test_accuracy": 0.897125,
+  "test_f1": 0.8993025816713568,
+  "test_pairs": 8000
+}

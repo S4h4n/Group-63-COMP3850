@@ -1,0 +1,13 @@
+{
+  "features": [
+    "p_match",
+    "max_class_probability",
+    "binary_entropy"
+  ],
+  "attack": "StandardScaler + LogisticRegression",
+  "threshold": 0.5,
+  "membership_unit": "pair",
+  "target_used_for_attack_fitting": false,
+  "comparison": "first 5 versus all 10 shadows",
+  "limitation": "Individual record IDs overlap across data pools."
+}

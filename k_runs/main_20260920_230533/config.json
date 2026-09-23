@@ -1,0 +1,13 @@
+{
+  "membership_unit": "record_pair",
+  "architecture": "siamese_encoder_plus_classification_head",
+  "shadow_counts": [
+    5,
+    10
+  ],
+  "seed": 2026,
+  "train_fraction": 0.7,
+  "siamese_epochs": 30,
+  "head_epochs": 20,
+  "batch_size": 256
+}
