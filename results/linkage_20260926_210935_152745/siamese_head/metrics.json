@@ -1,0 +1,10 @@
+{
+  "model": "Siamese encoder with linkage classification head",
+  "task": "record linkage",
+  "threshold": 0.5,
+  "decision_rule": "probability > threshold",
+  "test_accuracy": 0.901,
+  "test_f1": 0.9002770083102493,
+  "test_roc_auc": 0.9621432548230193,
+  "test_pairs": 8000
+}

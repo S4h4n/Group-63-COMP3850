@@ -1,0 +1,14 @@
+{
+  "K": 20,
+  "attack_training_examples": 268780,
+  "target_evaluation_examples": 13440,
+  "accuracy": 0.5313244047619048,
+  "precision": 0.5180207174043319,
+  "recall": 0.9004464285714285,
+  "f1": 0.657681647736536,
+  "roc_auc": 0.5425606199511055,
+  "true_negative": 1090,
+  "false_positive": 5630,
+  "false_negative": 669,
+  "true_positive": 6051
+}
